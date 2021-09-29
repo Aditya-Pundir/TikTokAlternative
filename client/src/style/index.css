@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --logo-gray: rgb(221, 221, 221);
+  --links-gray: rgb(192, 197, 202);
+  --primary-gray: #848a92;
+  --dark-gray: #19202d;
+  --light-gray: #879da4;
+  --primary-yellow: #ffc106;
+}

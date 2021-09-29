@@ -1,0 +1,26 @@
+html {
+  background: var(--light-gray);
+  overflow: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-blue: #123456;
+  --cyan: #00ffff;
+  --logo-gray: rgb(221, 221, 221);
+  --links-gray: rgb(192, 197, 202);
+  --primary-gray: #848a92;
+  --dark-gray: #19202d;
+  --light-gray: #879da4;
+}
+body {
+  background-color: var(--light-gray);
+}
+.btn-main {
+  background-color: var(--cyan);
+  color: var(--primary-blue);
+  outline: none;
+}

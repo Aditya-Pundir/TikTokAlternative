@@ -1,0 +1,35 @@
+#NavBar {
+  background-color: var(--dark-gray);
+  opacity: 1;
+}
+.navbar-toggler-icon {
+  color: white !important;
+  z-index: 1;
+}
+.toggler {
+  background-color: var(--logo-gray);
+  height: 0.4vh;
+  margin-top: 1vh;
+  border-radius: 0.15rem;
+}
+#logo {
+  text-decoration: none;
+  color: var(--primary-yellow);
+  margin-right: 2vw;
+  transition: all ease 0.3s;
+}
+#logoImage {
+  height: 6vh;
+  transform: scale(160%);
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--links-gray) !important;
+  transition: all ease 0.3s;
+}
+.nav-link:hover {
+  color: aliceblue !important;
+}
+.active {
+  color: var(--primary-yellow) !important;
+}
